@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp">
+
+    <com.ikimasu.gin.dejavuprogress.DejavuProgress
+        android:id="@+id/dejavu"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|right"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp" />
+
+    <view
+        android:id="@+id/view"
+        class="com.ikimasu.gin.dejavuprogress.LostProgress"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="left|center_vertical" />
+
+</FrameLayout>
